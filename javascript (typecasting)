@@ -1,0 +1,16 @@
+let score = "arsh";
+// console.log(typeof score);
+let changetoNumber = Number( score );
+console.log(typeof changetoNumber);
+// console.log(changetoNumber);
+
+
+let somenumber= 33;
+let stringnumber = String(somenumber);
+console.log(typeof stringnumber);
+
+
+
+let isloggedin = " ARSH";
+let booleanisloggedin = Boolean(isloggedin);
+console.log(typeof booleanisloggedin);
