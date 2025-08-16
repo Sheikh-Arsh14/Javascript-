@@ -1,0 +1,6 @@
+const accountId = 123456;
+let accountemail= "arsh@google.com";
+var accountcity = "satna";
+console.table([accountId,accountemail,accountcity]);
+accountcity = "bhopal";
+console.table([accountId,accountemail,accountcity]);
