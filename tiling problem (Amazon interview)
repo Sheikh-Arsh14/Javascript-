@@ -1,0 +1,24 @@
+//You are given a wall of size 2 × n, and tiles of size 2 × 1.
+
+//Each tile can be placed either vertically or horizontally.
+
+//Find the number of ways to completely fill the wall using these tiles.
+
+public static int tilingproblem(int n){
+        if ( n ==0){
+            return 1;
+        }
+        //for vertical tiles
+        int way1 = (n-1);
+        // for horizontal tiles
+        int way2 = (n-2);
+        // total ways of placing them
+        int totalways = way1+way2;
+        return totalways;
+    }
+    public static void main (String args[]){
+          System.out.println(tilingproblem(4 ));
+
+    } 
+    
+}
