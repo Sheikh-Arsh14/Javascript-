@@ -1,0 +1,9 @@
+//stack will store a copy of the data
+// heap will make a changes in the original data
+let mynameis ="arsh";
+let myfirstnameis = mynameis; //the output will be - arsh
+
+myfirstnameis ="sheikh";
+
+console.log(mynameis); // arsh
+console.log(myfirstnameis);// sheikh
