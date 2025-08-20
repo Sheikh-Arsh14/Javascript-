@@ -1,0 +1,21 @@
+
+ const marvelheros = [ "ironman", "thor", "captain" ]
+ const dcheros = [ "superman", "flash", "batman"]
+ marvelheros.push(dcheros);
+ console.log(marvelheros[2])
+
+const marvelheros = [ "ironman", "thor", "captain" ] // BY USING CONCAT OPERATION
+ const dcheros = [ "superman", "flash", "batman"]
+ const allheros = marvelheros.concat(dcheros);
+ console.log(allheros)
+
+ const marvelheros = [ "ironman", "thor", "captain" ] //SPREAD OPERATOR
+ const dcheros = [ "superman", "flash", "batman"]
+ console.log(...dcheros,...marvelheros)
+
+const anotherarray = [1,2,3,[2,3,1[6,5,7,8]][5,9,0,7]];
+const real_anotherarray = anotherarray.flat(Infinity);
+console.log(real_anotherarray)
+
+console.log(Array.isArray("sheikh"))
+console.log(Array.from("sheikh")) //to convert data into array
